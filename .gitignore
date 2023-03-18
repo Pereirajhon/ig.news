@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#variavel de ambiente
+.env-local
+
+#outros arquivos
+.slicemachine
+slices
+customtypes
+ignitenews1234

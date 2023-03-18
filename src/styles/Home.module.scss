@@ -1,7 +1,7 @@
 .contentContainer{
     max-width: 1120px;
     height: calc(100vh - 5rem);
-    margin: 0 auto;
+    margin: 4rem auto 0;
     padding: 0 1rem;
     display: flex;  
     justify-content: space-around;
@@ -18,7 +18,7 @@
     h1{
         font-size: 4.5rem;
         margin-top: 2.5rem;
-        font-weight: 900;
+        font-weight: bold;
         line-height: 4.5rem;
         span{
             color: var(--cyan-500) ;
@@ -33,5 +33,25 @@
             font-weight: bold;
             color: var(--cyan-500);
         }
+    }
+}
+
+@media screen and (max-width: 720px){
+    .contentContainer{
+        max-width: 100%;
+        display: flex;
+        align-items: flex-start;
+        .hero{
+            width: 90%;
+            font-size: 4rem;
+            text-align: center;
+            button{
+                width: 100%;
+            }
+        }
+
+       img{
+           display: none;
+       }
     }
 }

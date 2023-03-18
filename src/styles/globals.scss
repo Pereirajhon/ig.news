@@ -28,6 +28,12 @@
   }
 }
 
+@media(max-width: 480px){
+  html{
+    font-size: 81.25%;
+  }
+}
+
 body{
   background: var(--gray-900) ;
   color: var(--white);
